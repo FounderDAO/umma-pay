@@ -51,3 +51,4 @@ git push origin <your_branch_name>
 The team will contact you with respect to the listing in the plugin
 
 
+Bu bizga wallet uchun va boshqa kerak xolatlarda bizga JSON kerak bo'lganda ishlatsak bo'ladi 

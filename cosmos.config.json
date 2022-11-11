@@ -2,11 +2,28 @@
   {
     "chainId": "ummad",
     "name": "Umma",
-    "apiURL": "http://localhost:1317",
-    "rpcURL": "http://localhost:26657",
+    "apiURL": "http://127.0.0.1:1317",
+    "rpcURL": "http://127.0.0.1:26657",
     "coinLookup": {
       "viewDenom": "UMMA",
       "chainDenom": "aumma",
+      "addressPrefix": "umma",
+      "icon": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/bcna.svg",
+      "banner": "https://demo.cosmos-tool.com//wp-content/plugins/cosmos-woocomerce/public/img/BitCanna.png"
+    },
+    "coingeckoId": "bitcanna",
+    "mintscanId": "bitcanna",
+    "active": "true",
+    "lastUpdate": "2022-11-11T13:54:13.333Z"
+  },
+  {
+    "chainId": "junod",
+    "name": "Juno",
+    "apiURL": "http://116.203.18.207:1317",
+    "rpcURL": "http://116.203.18.207:26657",
+    "coinLookup": {
+      "viewDenom": "UZST",
+      "chainDenom": "uuzst",
       "addressPrefix": "umma",
       "icon": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/bcna.svg",
       "banner": "https://demo.cosmos-tool.com//wp-content/plugins/cosmos-woocomerce/public/img/BitCanna.png"

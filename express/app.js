@@ -14,8 +14,8 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 
-//const githubRepo = 'https://raw.githubusercontent.com/atmoner/chains-api/main/cosmos.config.json'
-const githubRepo = 'https://raw.githubusercontent.com/BitCannaGlobal/cosmospay-api/main/cosmos.config.json'
+// const githubRepo = 'https://raw.githubusercontent.com/atmoner/chains-api/main/cosmos.config.json'
+const githubRepo = 'https://raw.githubusercontent.com/FounderDAO/umma-pay/main/cosmos.config.json'
 
 app.get('/', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
