@@ -2,8 +2,8 @@
   {
     "chainId": "ummad",
     "name": "Umma",
-    "apiURL": "http://localhost:1317",
-    "rpcURL": "http://localhost:26657",
+    "apiURL": "",
+    "rpcURL": "",
     "coinLookup": {
       "viewDenom": "UMMA",
       "chainDenom": "aumma",
@@ -14,7 +14,7 @@
     "coingeckoId": "bitcanna",
     "mintscanId": "bitcanna",
     "active": "true",
-    "lastUpdate": "2022-11-11T13:54:13.333Z"
+    "lastUpdate": "2022-11-11T14:04:56.285Z"
   },
   {
     "chainId": "cosmoshub-4",
@@ -31,7 +31,7 @@
     "coingeckoId": "cosmos",
     "mintscanId": "cosmos",
     "active": "true",
-    "lastUpdate": "2022-11-11T13:54:13.333Z"
+    "lastUpdate": "2022-11-11T14:04:56.285Z"
   },
   {
     "chainId": "osmosis-1",
@@ -48,6 +48,6 @@
     "coingeckoId": "osmosis",
     "mintscanId": "osmosis",
     "active": "true",
-    "lastUpdate": "2022-11-11T13:54:13.333Z"
+    "lastUpdate": "2022-11-11T14:04:56.285Z"
   }
 ]
