@@ -15,7 +15,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 
 // const githubRepo = 'https://raw.githubusercontent.com/atmoner/chains-api/main/cosmos.config.json'
+
 const githubRepo = 'https://raw.githubusercontent.com/FounderDAO/umma-pay/main/cosmos.config.json'
+
+const githubGenesisRepo = 'https://raw.githubusercontent.com/FounderDAO/umma-pay/main/genesis.json'
 
 app.get('/', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
@@ -24,6 +27,13 @@ app.get('/', function (req, res) {
   })
 })
  
+app.get("/genesis", function(req, res) {
+  res.setHeader('Content-Type', 'application/json')
+  getJSON(githubGenesisRepo, function(error, response){
+    res.send(response)
+  })
+}) 
+
 app.listen(5000, function () {
 	console.log('***********************************************')
 	console.log('* App listening on port ' + 5000)
