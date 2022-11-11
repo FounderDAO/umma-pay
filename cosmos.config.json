@@ -2,8 +2,8 @@
   {
     "chainId": "ummad",
     "name": "Umma",
-    "apiURL": "",
-    "rpcURL": "",
+    "apiURL": "http://127.0.0.1:1317",
+    "rpcURL": "http://127.0.0.1:26657",
     "coinLookup": {
       "viewDenom": "UMMA",
       "chainDenom": "aumma",
@@ -19,8 +19,8 @@
   {
     "chainId": "junod",
     "name": "Juno",
-    "apiURL": "https://lcd-juno.itastakers.com",
-    "rpcURL": "https://rpc-juno.whispernode.com",
+    "apiURL": "http://116.203.18.207:1317",
+    "rpcURL": "http://116.203.18.207:26657",
     "coinLookup": {
       "viewDenom": "UZST",
       "chainDenom": "uuzst",
