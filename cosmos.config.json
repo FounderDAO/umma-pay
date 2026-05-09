@@ -14,13 +14,13 @@
     "coingeckoId": "bitcanna",
     "mintscanId": "bitcanna",
     "active": "true",
-    "lastUpdate": "2026-05-09T02:47:06.518Z"
+    "lastUpdate": "2026-05-09T07:55:35.610Z"
   },
   {
     "chainId": "junod",
     "name": "Juno",
     "apiURL": "",
-    "rpcURL": "",
+    "rpcURL": "https://juno-rpc.polkachu.com",
     "coinLookup": {
       "viewDenom": "UZST",
       "chainDenom": "uuzst",
@@ -31,7 +31,7 @@
     "coingeckoId": "bitcanna",
     "mintscanId": "bitcanna",
     "active": "true",
-    "lastUpdate": "2026-05-09T02:47:06.518Z"
+    "lastUpdate": "2026-05-09T07:55:35.610Z"
   },
   {
     "chainId": "cosmoshub-4",
@@ -48,7 +48,7 @@
     "coingeckoId": "cosmos",
     "mintscanId": "cosmos",
     "active": "true",
-    "lastUpdate": "2026-05-09T02:47:06.518Z"
+    "lastUpdate": "2026-05-09T07:55:35.610Z"
   },
   {
     "chainId": "osmosis-1",
@@ -65,6 +65,6 @@
     "coingeckoId": "osmosis",
     "mintscanId": "osmosis",
     "active": "true",
-    "lastUpdate": "2026-05-09T02:47:06.518Z"
+    "lastUpdate": "2026-05-09T07:55:35.610Z"
   }
 ]
